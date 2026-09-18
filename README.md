@@ -17,12 +17,13 @@ Script bash sederhana untuk deploy aplikasi Laravel di shared hosting.
 
 ## Usage / Cara pakai
 
-Run the script from the root of your Laravel project:
+Make it executable first, then run it from the root of your Laravel project:
 
-Jalankan script dari root folder project Laravel:
+Buat executable dulu, lalu jalankan dari root folder project Laravel:
 
 ```bash
-bash deploy.sh
+chmod +x deploy.sh
+./deploy.sh
 ```
 
 You'll be asked to fill in database name, username, and password. Password input is hidden (won't show while you type).
